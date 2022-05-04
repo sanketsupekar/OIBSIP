@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/tu.png" type="image/*">
+    <script src="script.js"></script>
+    <script src="typeWriter.js"></script>
+    <title>Use JavaScript | Love JavaScript </title>
+</head>
+
+<body onload="callFunctionsHere()">
+
+
+
+    <div class="firstPage">
+
+        <div id="navbardesktop">
+            <div class="logo"><a target="__blank" href="https://www.javascript.com/">JavaScript</a></div>
+            <div class="navitems">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#why">WHY JAVASCRIPT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="navbar">
+            <div class="menus" id="close">
+                <a href="#home">HOME</a>
+                <a href="#why">WHY JAVASCRIPT</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+
+            <div class="myHamburgerM">
+                <img src="images/bars-solid.svg" onclick="myFunction()" onblur="myFunction()" id="myHamburgerMenu"
+                    style="width:20px;padding:5px;" />
+            </div>
+
+        </div>
+    </div>
+    <div class="newpage1" id="home">
+
+        <div class="centerdiv">
+
+            <div class="fh">
+                <h1> JavaScript is <span id="linuxSpan"></span></span></h1>
+            </div>
+            <div class="sh">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+                    alt="tux penguin using computer">
+            </div>
+
+        </div>
+
+
+        <div class="socialMedia">
+            <label>Fun Facts about JavaScript</label>
+            <p id="funfact"></p>
+        </div>
+
+
+
+    </div>
+    </div>
+    <div class="newpage2" id="why">
+        <div class="whyCenter">
+            <div class="mycard">
+                <img src="images/icons8-protect-80.png" style="width: 60px;">
+                <label>Object-Oriented Programming</label>
+                <p>Starting from ES6, the concept of class and OOPs has been more refined. Also, in JavaScript, two important principles with OOP in JavaScript are Object Creation patterns (Encapsulation) and Code Reuse patterns (Inheritance). Although JavaScript developers rarely use this feature but its there for everyone to explore.</p>
+            </div>
+            <div class="mycard">
+                <img src="images/icons8-gears-80.png" style="width: 60px;" alt="">
+                <label>Platform Independent</label>
+                <p>This implies that JavaScript is platform-independent or we can say it is portable; which simply means that you can simply write the script once and run it anywhere and anytime. In general, you can write your JavaScript applications and run them on any platform or any browser without affecting the output of the Script.</p>
+            </div>
+            <div class="mycard">
+                <img src="images/icons8-hardware-64.png" style="width: 60px;">
+                <label>Prototype-based Language</label>
+                <p>avaScript is a prototype-based scripting Language. This means javascript uses prototypes instead of classes or inheritance. In languages like Java, we create a class and then we create objects for those classes. But in JavaScript, we define object prototype and then more objects can be created using this object prototype</p>
+            </div>
+        </div>
+    </div>
+    <div class="newpage3" id="contact">
+
+        <div class="addMessage">
+            <div class="msg">
+                <div class="content">
+                    <h2>Send us a message</h2>
+                    <p>If you have any queries of any type related to javascript, you can send me message from here. It's our
+                        pleasure to help you.</p>
+
+                    <input type="text" placeholder="Enter your name" id="">
+                    <input type="text" placeholder="Enter your email" id="">
+                    <input type="text" placeholder="Enter your message" id="">
+                    <button>Send Now</button>
+                </div>
+
+            </div>
+
+            <div class="add">
+                <div class="content">
+                    <img src="images/icons8-address-48.png" alt="">
+                    <h2>Address</h2>
+                    <address>Shirdi,Ahmednagar,Maharashtra</address>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="socialMedia">
+            <img src="images/github.svg" alt="">
+            <img src="images/gmail.svg" alt="">
+            <img src="images/telegram.svg" alt="">
+            <img src="images/whatsapp.svg" alt="">
+            <img src="images/phone.svg" alt="">
+            <img src="images/instagram.svg" alt="">
+        </div>
+    </div>
+
+</body>
+
+</html>
