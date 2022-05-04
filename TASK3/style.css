@@ -5,7 +5,7 @@
     font-family: Verdana,Tahoma, sans-serif;
 }
 body{
-    background-color: #111b21;
+    background-color: #140301;
 }
 
 
@@ -45,7 +45,7 @@ body{
 }
 
 .centerMy input[type=text]{
-    box-shadow:  5px 5px 10px blue, 10px 10px 10px red, 15px 15px 10px green;
+    
     width: 15%;
     padding: 20px;
     scrollbar-width: 0;
@@ -56,7 +56,7 @@ body{
     color: red; 
     text-shadow: 5px 4px 4px#62474793;
     font-size: larger;
-    animation: moveShadow1 2s infinite;
+    
 }
 
 .buttons{
@@ -110,21 +110,3 @@ body{
 
 
 
-@keyframes moveShadow {
-    0%   { box-shadow:  5px 5px 20px blue, 10px 10px 20px red, 15px 15px 40px green;}
-    25%  { box-shadow:  -5px 5px 20px blue, -10px 10px 20px red, -15px 15px 40px green;}
-    50%  { box-shadow:  5px -5px 20px blue, 10px -10px 20px red, 15px -15px 40px green;}
-    75%  { box-shadow:  5px 5px 20px blue, 10px 10px 20px red, 15px 15px 40px green;}
-    100% { box-shadow:  -5px -5px 20px blue, -10px -10px 20px red, -15px -15px 40px green;} 
-}
-
-
-
-
-@keyframes moveShadow1 {
-    0%   { box-shadow: -5px -5px 15px grey;}
-    25%  { box-shadow: -5px 5px 15px grey;}
-    50%  { box-shadow: 5px 5px 15px grey;}
-    75%  { box-shadow: 5px -5px 15px grey;}
-    100% { box-shadow: -5px -5px 15px grey;}
-}

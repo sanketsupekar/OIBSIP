@@ -23,18 +23,18 @@
         <div class="centerMy">
             <div class="faren">
                 <label for="fah">Fahrenheit</label>
-                <input id="fah" type="text" value="45">
+                <input id="fah" onchange="convertToCelcius()"  onkeypress="convertToCelcius()" type="text" value="45">
             </div>
             <div class="celci">
                 <label for="cel">Celcius</label>
-                <input id="cel" type="text" value="45">
+                <input id="cel" onchange="convertToFahrenheit()" type="text" value="45">
             </div>
         </div>
     </div>
 
     <div class="buttons">
-        <button onclick="convertToCelcius()">Convert F to C</button>
-        <button onclick="convertToFahrenheit()">Convert C to F</button>
+        <button onclick="convertToCelcius() " oncl>Convert</button>
+        <!-- <button onclick="convertToFahrenheit()">Convert C to F</button> -->
     </div>
 
 
